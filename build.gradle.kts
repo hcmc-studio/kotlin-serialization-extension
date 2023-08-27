@@ -4,6 +4,7 @@ val kotlinx_serialization_version: String by project
 
 plugins {
     kotlin("jvm")
+    kotlin("plugin.serialization") version "1.9.0"
     id("maven-publish")
 }
 
